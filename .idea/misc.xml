@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/config-service/pom.xml" />
         <option value="$PROJECT_DIR$/dummy-client-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-service/pom.xml" />
       </list>
     </option>
   </component>

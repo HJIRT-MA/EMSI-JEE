@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
         <module name="config-service" />
         <module name="dummy-client-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dumm-client-service" target="17" />
+      <module name="dumm-client-service.main" target="17" />
+      <module name="dumm-client-service.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +24,7 @@
       <module name="dumm-client-service.main" options="-parameters" />
       <module name="dumm-client-service.test" options="-parameters" />
       <module name="dummy-client-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
     </option>
   </component>
 </project>
